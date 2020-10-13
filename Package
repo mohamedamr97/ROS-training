@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+    <package format="2">
+    <name>First Package</name>
+    <version>0.1.0</version>
+    <description>My first package</description>
+   
+    <maintainer email="mohamedamr97@yahoo.com">Mohamed Amr</maintainer>
+    <license>BSD</license>
+    <buildtool_depend>catkin</buildtool_depend>
+    <build_depend>roscpp</build_depend>
+    <build_depend>rospy</build_depend>
+    <build_depend>std_msgs</build_depend>
+    <exec_depend>roscpp</exec_depend>
+    <exec_depend>rospy</exec_depend>
+    <exec_depend>std_msgs</exec_depend>
