@@ -1,6 +1,8 @@
-from collections import Counter
-def word_count(fname):
-        with open(fname) as f:
-                return Counter(f.read().split())
+def number_words(text):
+  print('Total number of words in String', len(text.split()))
+    
+number_words('My name is mohamed amr')
+s = 'This Python program counts\tnumber of words in a String.'
+number_words(s)
 
-print("Number of words in the file :",word_count("test.txt"))
+// should print 5 words.
