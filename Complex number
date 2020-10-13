@@ -1,0 +1,19 @@
+# importing "cmath" for complex number operations 
+import cmath 
+  
+ 
+x = 5
+y = 3
+  
+# converting x and y into complex number 
+z = complex(x,y); 
+  
+# printing real and imaginary part of complex number 
+print ("The real part of complex number is : ",end="") 
+print (z.real) 
+  
+print ("The imaginary part of complex number is : ",end="") 
+print (z.imag) 
+
+The real part of complex number is : 5.0
+The imaginary part of complex number is : 3.0
